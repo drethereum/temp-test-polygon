@@ -13,7 +13,7 @@ env:
   ACCOUNT: "${{ vars.ACCOUNT }}"
   ROLE: "${{ vars.ROLE }}"
   USER: "${{ vars.USER }}"
-  AUTHENTICATOR: "${{ secrets.AUTHENTICATOR }}"
+  PASSWORD: "${{ secrets.PASSWORD }}"
   REGION: "${{ vars.REGION }}"
   DATABASE: "${{ vars.DATABASE }}"
   WAREHOUSE: "${{ vars.WAREHOUSE }}"
